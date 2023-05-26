@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="title">
+            <h1>Length Converter</h1>
+            <img src="img.png" alt=""/>
+
+        </div>
+
+        <div class="container">
+            <form action="">
+                <div class="task">
+                    <div class="form-container task-containers">
+                        <label for="input">From:</label>
+                        <input type="text" placeholder="Input" id="input"/>
+                        <select name="from" id="inputType">
+                            <option value="meter" selected>
+                                Meter
+                            </option>
+                            <option value="kilometer">Kilometer</option>
+                            <option value="centimeter">Centimeter</option>
+                            <option value="foot">Foot</option>
+                            <option value="inch">Inch</option>
+                        </select>
+                    </div>
+
+                    <div class="to-container task-containers">
+                        <label for="Result">To:</label>
+                        <input type="text" placeholder="Result" id="result"/>
+                        <select name="to" id="resultType">
+                            <option value="meter">Meter</option>
+                            <option value="kilometer">Kilometer</option>
+                            <option value="foot">Foot</option>
+                            <option value="inch"selected>Inch</option>
+                        </select>
+
+                    </div>
+
+                </div>
+                <input type="reset"/>
+            </form>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
